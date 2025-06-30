@@ -1,0 +1,69 @@
+[2025-06-29 15:43:56]  35 root - INFO - \U0001f680 Starting stock prediction training pipeline...
+[2025-06-29 15:43:56]  38 root - INFO - \U0001f4e5 Step 1: Collecting stock data...
+[2025-06-29 15:43:56]  29 root - INFO - Starting stock data collection process
+[2025-06-29 15:43:56]  36 root - INFO - Reading Excel file from: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_list.xlsx
+[2025-06-29 15:43:56]  49 root - INFO - Found 5 stock symbols in Excel file
+[2025-06-29 15:43:56]  54 root - INFO - Total symbols to download: 11
+[2025-06-29 15:43:56]  59 root - INFO - Downloading data from 2020-06-30 to 2025-06-29
+[2025-06-29 15:43:56]  62 root - INFO - Downloading stock data from Yahoo Finance...
+[2025-06-29 15:43:57]  70 root - INFO - Processing downloaded data...
+[2025-06-29 15:43:57]  92 root - INFO - Saving data to CSV: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:43:57]  95 root - INFO - Data collection completed successfully. CSV saved to: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:43:57]  96 root - INFO - Total records: 12390
+[2025-06-29 15:43:57]  97 root - INFO - Unique tickers: 10
+[2025-06-29 15:43:57]  40 root - INFO - \u2705 Stock price data collected.
+[2025-06-29 15:43:57]  43 root - INFO - \u2699\ufe0f Step 2: Adding technical indicators...
+[2025-06-29 15:43:57]  387 root - INFO - Loading data from C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:43:57]  19 root - INFO - Data loaded successfully from C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:43:57]  344 root - INFO - Applying all technical indicators for column: Ticker
+[2025-06-29 15:43:57]  32 root - INFO - Calculating SMA for column: Ticker
+[2025-06-29 15:43:57]  37 root - INFO - SMA calculation completed successfully
+[2025-06-29 15:43:57]  47 root - INFO - Calculating EMA for column: Ticker
+[2025-06-29 15:43:57]  51 root - INFO - EMA calculation completed successfully
+[2025-06-29 15:43:57]  61 root - INFO - Calculating Bollinger Bands for column: Ticker
+[2025-06-29 15:43:57]  65 root - INFO - Bollinger Bands calculation completed successfully
+[2025-06-29 15:43:57]  75 root - INFO - Calculating Pivot Points for column: Ticker
+[2025-06-29 15:43:57]  89 root - INFO - Pivot Points calculation completed successfully
+[2025-06-29 15:43:57]  99 root - INFO - Calculating Ichimoku Cloud for column: Ticker
+[2025-06-29 15:43:57]  109 root - INFO - Ichimoku Cloud calculation completed successfully
+[2025-06-29 15:43:57]  119 root - INFO - Calculating MACD for column: Ticker
+[2025-06-29 15:43:57]  129 root - INFO - MACD calculation completed successfully
+[2025-06-29 15:43:57]  139 root - INFO - Calculating RSI for column: Ticker
+[2025-06-29 15:43:57]  151 root - INFO - RSI calculation completed successfully
+[2025-06-29 15:43:57]  161 root - INFO - Calculating ATR for column: Ticker
+[2025-06-29 15:43:57]  171 root - INFO - ATR calculation completed successfully
+[2025-06-29 15:43:57]  181 root - INFO - Calculating Stochastic Oscillator for column: Ticker
+[2025-06-29 15:43:57]  191 root - INFO - Stochastic Oscillator calculation completed successfully
+[2025-06-29 15:43:57]  201 root - INFO - Calculating SAR for column: Ticker
+[2025-06-29 15:43:58]  253 root - INFO - SAR calculation completed successfully
+[2025-06-29 15:43:58]  287 root - INFO - Calculating Fibonacci Retracement for column: Ticker
+[2025-06-29 15:43:58]  298 root - INFO - Fibonacci Retracement calculation completed successfully
+[2025-06-29 15:43:58]  263 root - INFO - Calculating OBV for column: Ticker
+[2025-06-29 15:43:58]  277 root - INFO - OBV calculation completed successfully
+[2025-06-29 15:43:58]  308 root - INFO - Calculating Garman-Klass Volatility for column: Ticker
+[2025-06-29 15:43:58]  317 root - INFO - Garman-Klass Volatility calculation completed successfully
+[2025-06-29 15:43:58]  327 root - INFO - Calculating Donchian Channel for column: Ticker
+[2025-06-29 15:43:58]  334 root - INFO - Donchian Channel calculation completed successfully
+[2025-06-29 15:43:58]  364 root - INFO - All technical indicators applied successfully
+[2025-06-29 15:43:58]  398 root - INFO - Data with indicators saved to C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\un_processed_data\stock_price_with_indicators.csv
+[2025-06-29 15:43:58]  45 root - INFO - \u2705 Technical indicators added.
+[2025-06-29 15:43:58]  48 root - INFO - \U0001f916 Step 3: Training LSTM models...
+[2025-06-29 15:43:59]  30 root - INFO - Data loaded to DataFrame successfully
+[2025-06-29 15:43:59]  63 root - INFO - Column processing completed
+[2025-06-29 15:43:59]  128 root - INFO - Transformed ADANIGREEN.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed BANKBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed BHEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed CPSEETF.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed GOLDBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed HDFCSML250.NS: 526 sequences, 420 train, 106 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed JUNIORBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed MID150BEES.NS: 1165 sequences, 932 train, 233 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed NIFTYBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-29 15:43:59]  128 root - INFO - Transformed ^NSEI: 1185 sequences, 948 train, 237 test
+[2025-06-29 15:47:32]  157 tensorflow - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001799B215750> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-29 15:47:32]  157 tensorflow - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001799B216950> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-29 15:47:36]  231 root - INFO - Evaluation results saved to C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\models
+[2025-06-29 15:47:37]  50 root - INFO - \u2705 Model training completed.
+[2025-06-29 15:47:37]  53 root - INFO - \U0001f4ca Step 4: Generating evaluation plots...
+[2025-06-29 15:47:38]  59 root - INFO - \u2705 Plots generated.
+[2025-06-29 15:47:38]  61 root - INFO - \U0001f3c1 Pipeline completed successfully.

@@ -1,0 +1,55 @@
+[2025-06-29 14:59:00]  29 root - INFO - Starting stock data collection process
+[2025-06-29 14:59:00]  36 root - INFO - Reading Excel file from: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_list.xlsx
+[2025-06-29 14:59:00]  49 root - INFO - Found 5 stock symbols in Excel file
+[2025-06-29 14:59:00]  54 root - INFO - Total symbols to download: 11
+[2025-06-29 14:59:00]  59 root - INFO - Downloading data from 2020-06-30 to 2025-06-29
+[2025-06-29 14:59:00]  62 root - INFO - Downloading stock data from Yahoo Finance...
+[2025-06-29 14:59:01]  70 root - INFO - Processing downloaded data...
+[2025-06-29 14:59:01]  92 root - INFO - Saving data to CSV: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 14:59:01]  95 root - INFO - Data collection completed successfully. CSV saved to: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 14:59:01]  96 root - INFO - Total records: 12390
+[2025-06-29 14:59:01]  97 root - INFO - Unique tickers: 10
+[2025-06-29 15:01:41]  29 root - INFO - Starting stock data collection process
+[2025-06-29 15:01:41]  36 root - INFO - Reading Excel file from: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_list.xlsx
+[2025-06-29 15:01:41]  49 root - INFO - Found 5 stock symbols in Excel file
+[2025-06-29 15:01:41]  54 root - INFO - Total symbols to download: 11
+[2025-06-29 15:01:41]  59 root - INFO - Downloading data from 2020-06-30 to 2025-06-29
+[2025-06-29 15:01:41]  62 root - INFO - Downloading stock data from Yahoo Finance...
+[2025-06-29 15:01:42]  70 root - INFO - Processing downloaded data...
+[2025-06-29 15:01:42]  92 root - INFO - Saving data to CSV: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:01:42]  95 root - INFO - Data collection completed successfully. CSV saved to: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:01:42]  96 root - INFO - Total records: 12390
+[2025-06-29 15:01:42]  97 root - INFO - Unique tickers: 10
+[2025-06-29 15:01:49]  29 root - INFO - Starting stock data collection process
+[2025-06-29 15:01:49]  36 root - INFO - Reading Excel file from: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_list.xlsx
+[2025-06-29 15:01:49]  49 root - INFO - Found 5 stock symbols in Excel file
+[2025-06-29 15:01:49]  54 root - INFO - Total symbols to download: 11
+[2025-06-29 15:01:49]  59 root - INFO - Downloading data from 2020-06-30 to 2025-06-29
+[2025-06-29 15:01:49]  62 root - INFO - Downloading stock data from Yahoo Finance...
+[2025-06-29 15:01:49]  70 root - INFO - Processing downloaded data...
+[2025-06-29 15:01:49]  92 root - INFO - Saving data to CSV: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:01:50]  95 root - INFO - Data collection completed successfully. CSV saved to: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:01:50]  96 root - INFO - Total records: 12390
+[2025-06-29 15:01:50]  97 root - INFO - Unique tickers: 10
+[2025-06-29 15:03:07]  29 root - INFO - Starting stock data collection process
+[2025-06-29 15:03:07]  36 root - INFO - Reading Excel file from: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_list.xlsx
+[2025-06-29 15:03:07]  49 root - INFO - Found 5 stock symbols in Excel file
+[2025-06-29 15:03:07]  54 root - INFO - Total symbols to download: 11
+[2025-06-29 15:03:07]  59 root - INFO - Downloading data from 2020-06-30 to 2025-06-29
+[2025-06-29 15:03:07]  62 root - INFO - Downloading stock data from Yahoo Finance...
+[2025-06-29 15:03:07]  70 root - INFO - Processing downloaded data...
+[2025-06-29 15:03:07]  92 root - INFO - Saving data to CSV: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:03:07]  95 root - INFO - Data collection completed successfully. CSV saved to: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:03:07]  96 root - INFO - Total records: 12390
+[2025-06-29 15:03:07]  97 root - INFO - Unique tickers: 10
+[2025-06-29 15:07:31]  29 root - INFO - Starting stock data collection process
+[2025-06-29 15:07:31]  36 root - INFO - Reading Excel file from: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_list.xlsx
+[2025-06-29 15:07:31]  49 root - INFO - Found 5 stock symbols in Excel file
+[2025-06-29 15:07:31]  54 root - INFO - Total symbols to download: 11
+[2025-06-29 15:07:31]  59 root - INFO - Downloading data from 2020-06-30 to 2025-06-29
+[2025-06-29 15:07:31]  62 root - INFO - Downloading stock data from Yahoo Finance...
+[2025-06-29 15:07:32]  70 root - INFO - Processing downloaded data...
+[2025-06-29 15:07:32]  92 root - INFO - Saving data to CSV: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:07:32]  95 root - INFO - Data collection completed successfully. CSV saved to: C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\processed_data\stock_price_data.csv
+[2025-06-29 15:07:32]  96 root - INFO - Total records: 12390
+[2025-06-29 15:07:32]  97 root - INFO - Unique tickers: 10

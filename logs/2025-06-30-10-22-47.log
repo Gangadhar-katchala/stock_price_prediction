@@ -1,0 +1,31 @@
+[2025-06-30 10:22:48]  344 root - INFO - Applying all technical indicators for column: Ticker
+[2025-06-30 10:22:48]  32 root - INFO - Calculating SMA for column: Ticker
+[2025-06-30 10:22:48]  37 root - INFO - SMA calculation completed successfully
+[2025-06-30 10:22:48]  47 root - INFO - Calculating EMA for column: Ticker
+[2025-06-30 10:22:48]  51 root - INFO - EMA calculation completed successfully
+[2025-06-30 10:22:48]  61 root - INFO - Calculating Bollinger Bands for column: Ticker
+[2025-06-30 10:22:48]  65 root - INFO - Bollinger Bands calculation completed successfully
+[2025-06-30 10:22:48]  75 root - INFO - Calculating Pivot Points for column: Ticker
+[2025-06-30 10:22:48]  89 root - INFO - Pivot Points calculation completed successfully
+[2025-06-30 10:22:48]  99 root - INFO - Calculating Ichimoku Cloud for column: Ticker
+[2025-06-30 10:22:48]  109 root - INFO - Ichimoku Cloud calculation completed successfully
+[2025-06-30 10:22:48]  119 root - INFO - Calculating MACD for column: Ticker
+[2025-06-30 10:22:48]  129 root - INFO - MACD calculation completed successfully
+[2025-06-30 10:22:48]  139 root - INFO - Calculating RSI for column: Ticker
+[2025-06-30 10:22:48]  151 root - INFO - RSI calculation completed successfully
+[2025-06-30 10:22:48]  161 root - INFO - Calculating ATR for column: Ticker
+[2025-06-30 10:22:48]  171 root - INFO - ATR calculation completed successfully
+[2025-06-30 10:22:48]  181 root - INFO - Calculating Stochastic Oscillator for column: Ticker
+[2025-06-30 10:22:48]  191 root - INFO - Stochastic Oscillator calculation completed successfully
+[2025-06-30 10:22:48]  201 root - INFO - Calculating SAR for column: Ticker
+[2025-06-30 10:22:50]  253 root - INFO - SAR calculation completed successfully
+[2025-06-30 10:22:50]  287 root - INFO - Calculating Fibonacci Retracement for column: Ticker
+[2025-06-30 10:22:50]  298 root - INFO - Fibonacci Retracement calculation completed successfully
+[2025-06-30 10:22:50]  263 root - INFO - Calculating OBV for column: Ticker
+[2025-06-30 10:22:51]  277 root - INFO - OBV calculation completed successfully
+[2025-06-30 10:22:51]  308 root - INFO - Calculating Garman-Klass Volatility for column: Ticker
+[2025-06-30 10:22:51]  317 root - INFO - Garman-Klass Volatility calculation completed successfully
+[2025-06-30 10:22:51]  327 root - INFO - Calculating Donchian Channel for column: Ticker
+[2025-06-30 10:22:51]  334 root - INFO - Donchian Channel calculation completed successfully
+[2025-06-30 10:22:51]  364 root - INFO - All technical indicators applied successfully
+[2025-06-30 10:22:51]  72 root - INFO - Processed data shape: (55405, 63)
