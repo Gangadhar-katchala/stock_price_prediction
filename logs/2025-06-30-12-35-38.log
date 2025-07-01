@@ -1,0 +1,170 @@
+[2025-06-30 12:35:38]  40 root - INFO - Loading and preparing data...
+[2025-06-30 12:35:38]  33 root - INFO - Data loaded to DataFrame successfully
+[2025-06-30 12:35:38]  344 root - INFO - Applying all technical indicators for column: Ticker
+[2025-06-30 12:35:38]  32 root - INFO - Calculating SMA for column: Ticker
+[2025-06-30 12:35:38]  37 root - INFO - SMA calculation completed successfully
+[2025-06-30 12:35:38]  47 root - INFO - Calculating EMA for column: Ticker
+[2025-06-30 12:35:38]  51 root - INFO - EMA calculation completed successfully
+[2025-06-30 12:35:38]  61 root - INFO - Calculating Bollinger Bands for column: Ticker
+[2025-06-30 12:35:38]  65 root - INFO - Bollinger Bands calculation completed successfully
+[2025-06-30 12:35:38]  75 root - INFO - Calculating Pivot Points for column: Ticker
+[2025-06-30 12:35:39]  89 root - INFO - Pivot Points calculation completed successfully
+[2025-06-30 12:35:39]  99 root - INFO - Calculating Ichimoku Cloud for column: Ticker
+[2025-06-30 12:35:39]  109 root - INFO - Ichimoku Cloud calculation completed successfully
+[2025-06-30 12:35:39]  119 root - INFO - Calculating MACD for column: Ticker
+[2025-06-30 12:35:39]  129 root - INFO - MACD calculation completed successfully
+[2025-06-30 12:35:39]  139 root - INFO - Calculating RSI for column: Ticker
+[2025-06-30 12:35:39]  151 root - INFO - RSI calculation completed successfully
+[2025-06-30 12:35:39]  161 root - INFO - Calculating ATR for column: Ticker
+[2025-06-30 12:35:39]  171 root - INFO - ATR calculation completed successfully
+[2025-06-30 12:35:39]  181 root - INFO - Calculating Stochastic Oscillator for column: Ticker
+[2025-06-30 12:35:39]  191 root - INFO - Stochastic Oscillator calculation completed successfully
+[2025-06-30 12:35:39]  201 root - INFO - Calculating SAR for column: Ticker
+[2025-06-30 12:35:41]  253 root - INFO - SAR calculation completed successfully
+[2025-06-30 12:35:41]  287 root - INFO - Calculating Fibonacci Retracement for column: Ticker
+[2025-06-30 12:35:41]  298 root - INFO - Fibonacci Retracement calculation completed successfully
+[2025-06-30 12:35:41]  263 root - INFO - Calculating OBV for column: Ticker
+[2025-06-30 12:35:42]  277 root - INFO - OBV calculation completed successfully
+[2025-06-30 12:35:42]  308 root - INFO - Calculating Garman-Klass Volatility for column: Ticker
+[2025-06-30 12:35:42]  317 root - INFO - Garman-Klass Volatility calculation completed successfully
+[2025-06-30 12:35:42]  327 root - INFO - Calculating Donchian Channel for column: Ticker
+[2025-06-30 12:35:42]  334 root - INFO - Donchian Channel calculation completed successfully
+[2025-06-30 12:35:42]  364 root - INFO - All technical indicators applied successfully
+[2025-06-30 12:35:42]  69 root - INFO - Converted boolean column Trend_Up to numeric
+[2025-06-30 12:35:42]  91 root - INFO - Processed data shape: (55447, 64)
+[2025-06-30 12:35:42]  162 root - INFO - Transformed ABB.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:42]  162 root - INFO - Transformed ADANIGREEN.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:42]  162 root - INFO - Transformed ADANIPORTS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:42]  162 root - INFO - Transformed BANKBEES.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:42]  162 root - INFO - Transformed BEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed BHEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed CDSL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed CIPLA.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed CPSEETF.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed DRREDDY.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed EXIDEIND.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed GOLDBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed HAL.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed HDFCSML250.NS: 527 sequences, 421 train, 106 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed HINDZINC.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed IDEA.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed IRFC.NS: 1039 sequences, 831 train, 208 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed ITBEES.NS: 1163 sequences, 930 train, 233 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed JIOFIN.NS: 402 sequences, 321 train, 81 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed JMFINANCIL.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed JUNIORBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed KAYNES.NS: 591 sequences, 472 train, 119 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed KOLTEPATIL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed KOTAKBANK.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed KPITTECH.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed LAURUSLABS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed MAHKTECH.NS: 826 sequences, 660 train, 166 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed MASPTOP50.NS: 878 sequences, 702 train, 176 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed MID150BEES.NS: 1165 sequences, 932 train, 233 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed MODEFENCE.NS: 155 sequences, 124 train, 31 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed MON100.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed MOTILALOFS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed NIFTYBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed NMDC.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed PAYTM.NS: 841 sequences, 672 train, 169 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed PGEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed PHARMABEES.NS: 913 sequences, 730 train, 183 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed PRAJIND.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed PSUBNKIETF.NS: 489 sequences, 391 train, 98 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed RELIANCE.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed SAIL.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed SKIPPER.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed SUZLON.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed TATAMOTORS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed UTINEXT50.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed VEDL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed YESBANK.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed ZYDUSLIFE.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:43]  162 root - INFO - Transformed ^NSEI: 1184 sequences, 947 train, 237 test
+[2025-06-30 12:35:43]  45 root - INFO - Data prepared for 49 tickers
+[2025-06-30 12:35:43]  51 root - INFO - Loading trained LSTM models and global metadata...
+[2025-06-30 12:35:44]  33 root - INFO - Data loaded to DataFrame successfully
+[2025-06-30 12:35:44]  344 root - INFO - Applying all technical indicators for column: Ticker
+[2025-06-30 12:35:44]  32 root - INFO - Calculating SMA for column: Ticker
+[2025-06-30 12:35:44]  37 root - INFO - SMA calculation completed successfully
+[2025-06-30 12:35:44]  47 root - INFO - Calculating EMA for column: Ticker
+[2025-06-30 12:35:44]  51 root - INFO - EMA calculation completed successfully
+[2025-06-30 12:35:44]  61 root - INFO - Calculating Bollinger Bands for column: Ticker
+[2025-06-30 12:35:44]  65 root - INFO - Bollinger Bands calculation completed successfully
+[2025-06-30 12:35:44]  75 root - INFO - Calculating Pivot Points for column: Ticker
+[2025-06-30 12:35:44]  89 root - INFO - Pivot Points calculation completed successfully
+[2025-06-30 12:35:44]  99 root - INFO - Calculating Ichimoku Cloud for column: Ticker
+[2025-06-30 12:35:44]  109 root - INFO - Ichimoku Cloud calculation completed successfully
+[2025-06-30 12:35:44]  119 root - INFO - Calculating MACD for column: Ticker
+[2025-06-30 12:35:44]  129 root - INFO - MACD calculation completed successfully
+[2025-06-30 12:35:44]  139 root - INFO - Calculating RSI for column: Ticker
+[2025-06-30 12:35:44]  151 root - INFO - RSI calculation completed successfully
+[2025-06-30 12:35:45]  161 root - INFO - Calculating ATR for column: Ticker
+[2025-06-30 12:35:45]  171 root - INFO - ATR calculation completed successfully
+[2025-06-30 12:35:45]  181 root - INFO - Calculating Stochastic Oscillator for column: Ticker
+[2025-06-30 12:35:45]  191 root - INFO - Stochastic Oscillator calculation completed successfully
+[2025-06-30 12:35:45]  201 root - INFO - Calculating SAR for column: Ticker
+[2025-06-30 12:35:46]  253 root - INFO - SAR calculation completed successfully
+[2025-06-30 12:35:46]  287 root - INFO - Calculating Fibonacci Retracement for column: Ticker
+[2025-06-30 12:35:46]  298 root - INFO - Fibonacci Retracement calculation completed successfully
+[2025-06-30 12:35:46]  263 root - INFO - Calculating OBV for column: Ticker
+[2025-06-30 12:35:48]  277 root - INFO - OBV calculation completed successfully
+[2025-06-30 12:35:48]  308 root - INFO - Calculating Garman-Klass Volatility for column: Ticker
+[2025-06-30 12:35:48]  317 root - INFO - Garman-Klass Volatility calculation completed successfully
+[2025-06-30 12:35:48]  327 root - INFO - Calculating Donchian Channel for column: Ticker
+[2025-06-30 12:35:48]  334 root - INFO - Donchian Channel calculation completed successfully
+[2025-06-30 12:35:48]  364 root - INFO - All technical indicators applied successfully
+[2025-06-30 12:35:48]  69 root - INFO - Converted boolean column Trend_Up to numeric
+[2025-06-30 12:35:48]  91 root - INFO - Processed data shape: (55447, 64)
+[2025-06-30 12:35:48]  162 root - INFO - Transformed ABB.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed ADANIGREEN.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed ADANIPORTS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed BANKBEES.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed BEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed BHEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed CDSL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed CIPLA.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed CPSEETF.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed DRREDDY.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed EXIDEIND.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed GOLDBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed HAL.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed HDFCSML250.NS: 527 sequences, 421 train, 106 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed HINDZINC.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed IDEA.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed IRFC.NS: 1039 sequences, 831 train, 208 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed ITBEES.NS: 1163 sequences, 930 train, 233 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed JIOFIN.NS: 402 sequences, 321 train, 81 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed JMFINANCIL.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed JUNIORBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed KAYNES.NS: 591 sequences, 472 train, 119 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed KOLTEPATIL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed KOTAKBANK.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed KPITTECH.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed LAURUSLABS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed MAHKTECH.NS: 826 sequences, 660 train, 166 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed MASPTOP50.NS: 878 sequences, 702 train, 176 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed MID150BEES.NS: 1165 sequences, 932 train, 233 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed MODEFENCE.NS: 155 sequences, 124 train, 31 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed MON100.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed MOTILALOFS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed NIFTYBEES.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed NMDC.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed PAYTM.NS: 841 sequences, 672 train, 169 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed PGEL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed PHARMABEES.NS: 913 sequences, 730 train, 183 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed PRAJIND.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed PSUBNKIETF.NS: 489 sequences, 391 train, 98 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed RELIANCE.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed SAIL.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 12:35:48]  162 root - INFO - Transformed SKIPPER.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed SUZLON.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed TATAMOTORS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed UTINEXT50.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed VEDL.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed YESBANK.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed ZYDUSLIFE.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 12:35:49]  162 root - INFO - Transformed ^NSEI: 1184 sequences, 947 train, 237 test
+[2025-06-30 12:35:49]  74 root - INFO - Loaded model for ABB.NS
+[2025-06-30 12:35:49]  74 root - INFO - Loaded model for ADANIGREEN.NS
+[2025-06-30 12:35:49]  74 root - INFO - Loaded model for ADANIPORTS.NS

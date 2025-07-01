@@ -1,0 +1,14 @@
+[2025-06-30 10:38:41]  38 root - INFO - Reading data from C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\un_processed_data\stock_price_with_indicators.csv
+[2025-06-30 10:38:42]  40 root - INFO - Data shape: (60711, 50)
+[2025-06-30 10:38:42]  70 root - INFO - Processed data shape: (55444, 59)
+[2025-06-30 10:38:42]  302 __main__ - INFO - Training on 3 stocks: ['ABB.NS', 'ADANIGREEN.NS', 'ADANIPORTS.NS']
+[2025-06-30 10:38:42]  137 root - INFO - Transformed ABB.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 10:38:42]  137 root - INFO - Transformed ADANIGREEN.NS: 1186 sequences, 948 train, 238 test
+[2025-06-30 10:38:42]  137 root - INFO - Transformed ADANIPORTS.NS: 1187 sequences, 949 train, 238 test
+[2025-06-30 10:38:53]  185 root - INFO - Trained model for ABB.NS
+[2025-06-30 10:39:05]  185 root - INFO - Trained model for ADANIGREEN.NS
+[2025-06-30 10:39:16]  185 root - INFO - Trained model for ADANIPORTS.NS
+[2025-06-30 10:39:17]  157 tensorflow - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001603133E5F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2025-06-30 10:39:18]  256 root - INFO - Evaluation results saved to C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\models
+[2025-06-30 10:39:18]  282 root - INFO - Models saved to C:\Users\katch\Desktop\projects\stock_portfolio\notebooks\Data\models
+[2025-06-30 10:39:18]  320 __main__ - INFO - Training completed successfully
